@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: mhase/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 9842e074b8ee46aef76fd0d493bae0ed
-          TIMEZONE: Asia/Taipei
+          GIST_ID: d9075ecc89848b986a792e93bbe9d8a0
+          TIMEZONE: Europe/Warsaw
